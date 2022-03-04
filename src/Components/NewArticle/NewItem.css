@@ -1,0 +1,85 @@
+
+.rootDiv
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.container.parent
+{
+    width: 80%;
+    margin: 40px auto;
+    border: 2px solid blue;
+    border-radius: 12px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.input{
+    
+    width: 100px;
+    margin-left: 20%;
+    outline: none;
+    border: 1px solid rgb(170, 167, 167);
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+label{
+    margin:5px;
+    font-size: 18px;
+    
+}
+/* .textField{
+    padding: 8px 16px;
+    width: 250px;
+ outline: none;
+    cursor: pointer;
+    
+
+} */
+button{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+    margin-top: 5%;
+}
+button:hover{
+    background-color: #3498db;
+    color: white;
+}
+.container>div{
+    display: flex;
+    text-align: left;
+    width: 350px;
+    justify-content: space-between;
+}
+.drop{
+   margin-right:90%;
+   
+    
+}
+.dropl{
+    margin-left: 46%;
+}
+/* input{
+padding: 8px 16px;
+    width: 200px;
+    outline: none;
+    border: 1px solid rgb(170, 167, 167);
+    border-radius: 8px;
+    cursor: pointer;
+} */

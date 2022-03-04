@@ -1,0 +1,44 @@
+.hole{
+    margin-top: 1%;
+}
+.card{
+    margin-top: 1%;
+    margin-left: 26%;
+    padding: 1% 3% 3% 3% ;
+    width: 50%;
+    border-radius: 10px;
+    border: steelblue solid 2px;
+    text-align: center;
+    justify-content: center;
+    justify-content: center;
+    
+}
+.card:hover{
+  box-shadow: rgba(7, 7, 6, 0.5) 0px 10px 30px;
+  transform: translateY(-4px);
+  webkit-transform: translateY(-3px);
+  z-index: 100;
+}
+
+.add_button{
+    
+    margin-left: 60%;
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 0px;
+    border-radius: 8px;
+    border: 1px solid rgb(94, 93, 93);
+    outline: none;
+    cursor: pointer;
+}
+
+ .article_icon
+ {
+     color: tomato;
+ }
+ .profile{
+     margin-left: 70%;
+     font-size: 20px;
+     font-family: cursive;
+     font-weight: 700;
+ }
